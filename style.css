@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+  font-family: "Young Serif", serif;
+  
+}
+
+.container{
+    padding: 60px;
+    
+}
+.section-one{
+    background-color: blueviolet;
+    color: azure;
+    padding: 15px;
+}
+.section-one__contact{
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+}
+.section-one__name{
+    font-size: 40px;
+}
+.section-two,.section-three,.section-four{
+    margin: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc{
+    margin-top: 20px;
+}    
+.section-four{
+    background-color: black;
+    color: aliceblue;
+    padding: 18px;
+}
+.section-four__tittle a{
+    color: aqua;
+}
+.section-three li{
+    list-style:none;
+}
+.section-three{
+    background-color: aquamarine;
+    padding: 15px;
+    display: inline-block;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.contact-form{
+    margin: 20px;
+}
+.contact-form__input,.contact-form__input,.contact-form__sumbit{
+    margin-top: 5px;
+}
+.contact-form__input{
+    padding: 15px;
+    border: none;
+    border-bottom: black 1px;    
+}
